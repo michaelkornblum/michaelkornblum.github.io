@@ -374,6 +374,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  height: 24.5em;
 }
 img:before {
   content: '';
@@ -384,8 +385,8 @@ img:after {
   display: table;
   clear: both;
 }
-.article-header {
-  margin-bottom: 2.275em;
+article header {
+  margin-bottom: 2.975em;
 }
 .container {
   *zoom: 1;
