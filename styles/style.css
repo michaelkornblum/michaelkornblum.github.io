@@ -385,7 +385,7 @@ img:after {
   clear: both;
 }
 article header {
-  margin-bottom: 2.3625em;
+  margin-bottom: 0.0875em;
 }
 .container {
   *zoom: 1;
@@ -520,9 +520,6 @@ main:nth-child(3n + 1) {
   main:nth-child(3n + 1) {
     clear: left;
   }
-  main h2 {
-    margin-top: 0.4375em;
-  }
 }
 .toggle {
   height: 1.5em;
@@ -571,6 +568,7 @@ main:nth-child(3n + 1) {
   color: #fff;
   text-align: right;
   display: block;
+  margin-top: 0.4375em;
   height: 2.625em;
   padding: 0 1em;
   box-sizing: border-box;
