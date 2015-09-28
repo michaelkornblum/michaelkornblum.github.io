@@ -369,20 +369,7 @@ body:after {
   clear: both;
 }
 img {
-  *zoom: 1;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-}
-img:before {
-  content: '';
-  display: table;
-}
-img:after {
-  content: '';
-  display: table;
-  clear: both;
 }
 article header {
   margin-bottom: 0.0875em;
