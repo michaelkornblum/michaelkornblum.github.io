@@ -7,12 +7,12 @@ html {
 }
 @media (min-width: 600px) {
   html {
-    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (18 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   html {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 h1,
@@ -94,98 +94,98 @@ h6 {
   clear: both;
 }
 h1 {
-  font-size: 26.59898275321432px;
-  margin-top: 1.48031976881679em;
-  line-height: 1.776383722580148em;
-  margin-bottom: 0.296063953763358em;
+  font-size: 33.00342193123121px;
+  margin-top: 1.193058104157962em;
+  line-height: 1.431669724989554em;
+  margin-bottom: 0.238611620831592em;
 }
 @media (min-width: 600px) {
   h1 {
-    font-size: calc( 26.59898275321432px + (35.465310337619094 - 26.59898275321432) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 33.00342193123121px + (33.00342193123121 - 33.00342193123121) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h1 {
-    font-size: 35.465310337619094px;
-    margin-top: 1.48031976881679em;
-    line-height: 1.776383722580148em;
-    margin-bottom: 0.296063953763358em;
+    font-size: 33.00342193123121px;
+    margin-top: 1.193058104157962em;
+    line-height: 1.431669724989554em;
+    margin-bottom: 0.238611620831592em;
   }
 }
 h2 {
-  font-size: 24.600646663723758px;
-  margin-top: 1.600567681745642em;
-  line-height: 1.920681218094771em;
-  margin-bottom: 0.359150746312536em;
+  font-size: 29.23490442312567px;
+  margin-top: 1.346848938861357em;
+  line-height: 1.616218726633629em;
+  margin-bottom: 0.297011723987311em;
 }
 @media (min-width: 600px) {
   h2 {
-    font-size: calc( 24.600646663723758px + (32.80086221829834 - 24.600646663723758) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 29.23490442312567px + (29.23490442312567 - 29.23490442312567) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h2 {
-    font-size: 32.80086221829834px;
-    margin-top: 1.600567681745642em;
-    line-height: 1.920681218094771em;
-    margin-bottom: 0.349391443821684em;
+    font-size: 29.23490442312567px;
+    margin-top: 1.346848938861357em;
+    line-height: 1.616218726633629em;
+    margin-bottom: 0.297011723987311em;
   }
 }
 h3 {
-  font-size: 22.752442147444498px;
-  margin-top: 1.730583457583805em;
-  line-height: 2.076700149100566em;
-  margin-bottom: 0.391753554048764em;
+  font-size: 25.896697573063108px;
+  margin-top: 1.520464139835211em;
+  line-height: 1.824556967802253em;
+  margin-bottom: 0.339320427213135em;
 }
 @media (min-width: 600px) {
   h3 {
-    font-size: calc( 22.752442147444498px + (30.336589529925995 - 22.752442147444498) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 25.896697573063108px + (25.896697573063108 - 25.896697573063108) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h3 {
-    font-size: 30.336589529925995px;
-    margin-top: 1.730583457583805em;
-    line-height: 2.076700149100566em;
-    margin-bottom: 0.380344338415764em;
+    font-size: 25.896697573063108px;
+    margin-top: 1.520464139835211em;
+    line-height: 1.824556967802253em;
+    margin-bottom: 0.339320427213135em;
   }
 }
 h4 {
-  font-size: 21.04309007600898px;
-  margin-top: 1.871160549984579em;
-  line-height: 2.245392659981495em;
-  margin-bottom: 0.427584366055104em;
+  font-size: 22.939666074645945px;
+  margin-top: 1.71645916169282em;
+  line-height: 2.059750994031384em;
+  margin-bottom: 0.388186796967276em;
 }
 @media (min-width: 600px) {
   h4 {
-    font-size: calc( 21.04309007600898px + (28.05745343467864 - 21.04309007600898) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 22.939666074645945px + (22.939666074645945 - 22.939666074645945) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h4 {
-    font-size: 28.05745343467864px;
-    margin-top: 1.871160549984579em;
-    line-height: 2.245392659981495em;
-    margin-bottom: 0.414246302040557em;
+    font-size: 22.939666074645945px;
+    margin-top: 1.71645916169282em;
+    line-height: 2.059750994031384em;
+    margin-bottom: 0.388186796967276em;
   }
 }
 h5 {
-  font-size: 19.46215870267637px;
-  margin-top: 2.023156865665949em;
-  line-height: 2.427788238799139em;
-  margin-bottom: 0.40463137313319em;
+  font-size: 20.320285168855946px;
+  margin-top: 1.937718869238529em;
+  line-height: 2.325262643086235em;
+  margin-bottom: 0.387543773847706em;
 }
 @media (min-width: 600px) {
   h5 {
-    font-size: calc( 19.46215870267637px + (25.949544936901827 - 19.46215870267637) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 20.320285168855946px + (20.320285168855946 - 20.320285168855946) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h5 {
-    font-size: 25.949544936901827px;
-    margin-top: 2.023156865665949em;
-    line-height: 2.427788238799139em;
-    margin-bottom: 0.40463137313319em;
+    font-size: 20.320285168855946px;
+    margin-top: 1.937718869238529em;
+    line-height: 2.325262643086235em;
+    margin-bottom: 0.387543773847706em;
   }
 }
 h6 {
@@ -196,12 +196,12 @@ h6 {
 }
 @media (min-width: 600px) {
   h6 {
-    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (18 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h6 {
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 2.1875em;
     line-height: 2.625em;
     margin-bottom: 0.461805555555556em;
@@ -255,11 +255,11 @@ fieldset {
   border-width: 1px;
   border-style: solid;
   max-width: 100%;
-  margin-bottom: 1.822916666666667em;
+  margin-bottom: 1.847222222222222em;
 }
 @media (min-width: 1140px) {
   fieldset {
-    margin-bottom: 2.096354166666667em;
+    margin-bottom: 2.065972222222222em;
   }
 }
 fieldset button,
@@ -273,7 +273,7 @@ legend {
 label {
   display: block;
   padding-bottom: 0.21875em;
-  margin-bottom: -0.255208333333333em;
+  margin-bottom: -0.194444444444444em;
 }
 input[type="text"],
 input[type="email"],
@@ -283,14 +283,14 @@ textarea {
   max-width: 100%;
   padding: 0.4375em;
   font-size: 18px;
-  margin-bottom: 1.130208333333333em;
+  margin-bottom: 1.215277777777778em;
 }
 @media (min-width: 600px) {
   input[type="text"],
   input[type="email"],
   input[type="password"],
   textarea {
-    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (18 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -298,8 +298,8 @@ textarea {
   input[type="email"],
   input[type="password"],
   textarea {
-    font-size: 24px;
-    margin-bottom: 0.501302083333333em;
+    font-size: 18px;
+    margin-bottom: 0.522569444444444em;
   }
 }
 input[type="submit"],
@@ -308,18 +308,18 @@ button {
   cursor: pointer;
   font-size: 18px;
   padding: 0.4375em 1.75em;
-  margin-bottom: 1.203125em;
+  margin-bottom: 1.166666666666667em;
 }
 @media (min-width: 600px) {
   input[type="submit"],
   button {
-    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (18 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   input[type="submit"],
   button {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 1.3125em;
   }
 }
@@ -327,11 +327,11 @@ table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  margin-bottom: 2.114583333333333em;
+  margin-bottom: 2.236111111111111em;
 }
 @media (min-width: 1140px) {
   table {
-    margin-bottom: 2.005208333333333em;
+    margin-bottom: 2.090277777777778em;
   }
 }
 th {
@@ -593,4 +593,7 @@ main:nth-child(3n + 1) {
 .page-footer small {
   display: block;
   margin-top: 1.575em;
+}
+.page-footer #disqus_thread {
+  font-size: 1.25em;
 }
