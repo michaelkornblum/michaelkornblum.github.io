@@ -2,12 +2,12 @@ html {
   font-family: 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', 'sans-serif';
   font-weight: 300;
   color: #666;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75em;
 }
 @media (min-width: 600px) {
   html {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -94,14 +94,14 @@ h6 {
   clear: both;
 }
 h1 {
-  font-size: 23.643540225079395px;
+  font-size: 26.59898275321432px;
   margin-top: 1.48031976881679em;
   line-height: 1.776383722580148em;
   margin-bottom: 0.296063953763358em;
 }
 @media (min-width: 600px) {
   h1 {
-    font-size: calc( 23.643540225079395px + (35.465310337619094 - 23.643540225079395) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 26.59898275321432px + (35.465310337619094 - 26.59898275321432) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -113,14 +113,14 @@ h1 {
   }
 }
 h2 {
-  font-size: 21.867241478865562px;
+  font-size: 24.600646663723758px;
   margin-top: 1.600567681745642em;
   line-height: 1.920681218094771em;
-  margin-bottom: 0.364030397557962em;
+  margin-bottom: 0.359150746312536em;
 }
 @media (min-width: 600px) {
   h2 {
-    font-size: calc( 21.867241478865562px + (32.80086221829834 - 21.867241478865562) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 24.600646663723758px + (32.80086221829834 - 24.600646663723758) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -132,14 +132,14 @@ h2 {
   }
 }
 h3 {
-  font-size: 20.224393019950664px;
+  font-size: 22.752442147444498px;
   margin-top: 1.730583457583805em;
   line-height: 2.076700149100566em;
-  margin-bottom: 0.397458161865265em;
+  margin-bottom: 0.391753554048764em;
 }
 @media (min-width: 600px) {
   h3 {
-    font-size: calc( 20.224393019950664px + (30.336589529925995 - 20.224393019950664) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 22.752442147444498px + (30.336589529925995 - 22.752442147444498) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -151,14 +151,14 @@ h3 {
   }
 }
 h4 {
-  font-size: 18.704968956452426px;
+  font-size: 21.04309007600898px;
   margin-top: 1.871160549984579em;
   line-height: 2.245392659981495em;
-  margin-bottom: 0.434253398062377em;
+  margin-bottom: 0.427584366055104em;
 }
 @media (min-width: 600px) {
   h4 {
-    font-size: calc( 18.704968956452426px + (28.05745343467864 - 18.704968956452426) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 21.04309007600898px + (28.05745343467864 - 21.04309007600898) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -170,14 +170,14 @@ h4 {
   }
 }
 h5 {
-  font-size: 17.299696624601218px;
+  font-size: 19.46215870267637px;
   margin-top: 2.023156865665949em;
   line-height: 2.427788238799139em;
   margin-bottom: 0.40463137313319em;
 }
 @media (min-width: 600px) {
   h5 {
-    font-size: calc( 17.299696624601218px + (25.949544936901827 - 17.299696624601218) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 19.46215870267637px + (25.949544936901827 - 19.46215870267637) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -189,14 +189,14 @@ h5 {
   }
 }
 h6 {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 2.1875em;
   line-height: 2.625em;
-  margin-bottom: 0.57421875em;
+  margin-bottom: 0.559027777777778em;
 }
 @media (min-width: 600px) {
   h6 {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -204,7 +204,7 @@ h6 {
     font-size: 24px;
     margin-top: 2.1875em;
     line-height: 2.625em;
-    margin-bottom: 0.46484375em;
+    margin-bottom: 0.461805555555556em;
   }
 }
 blockquote {
@@ -282,7 +282,7 @@ textarea {
   display: block;
   max-width: 100%;
   padding: 0.4375em;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 1.130208333333333em;
 }
 @media (min-width: 600px) {
@@ -290,7 +290,7 @@ textarea {
   input[type="email"],
   input[type="password"],
   textarea {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -306,14 +306,14 @@ input[type="submit"],
 button {
   display: block;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   padding: 0.4375em 1.75em;
   margin-bottom: 1.203125em;
 }
 @media (min-width: 600px) {
   input[type="submit"],
   button {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -369,7 +369,23 @@ body:after {
   clear: both;
 }
 img {
-  width: 100%;
+  min-width: 100%;
+  *zoom: 1;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img:before {
+  content: '';
+  display: table;
+}
+img:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+article {
+  margin-bottom: vr(0.25);
 }
 article header {
   margin-bottom: 0.0875em;
