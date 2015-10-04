@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Michael Kornblum | This Is A Work In Progress</title>
-	<meta name="description" content="Things I need to do on this blog">
+	<title>Michael Kornblum | Static Site Generators - A First Look</title>
+	<meta name="description" content="Introducing static site generators">
 	<meta name="author" content="Michael Kornblum">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/styles/style.css">
@@ -60,8 +60,13 @@
 				</ul>
 				<h2>Latest Posts</h2>
 				<ul>
+					<li><a href="/posts/static-site-generators-a-first-look">October 03, 2015: Static Site Generators - A First Look</a></li>
 					<li><a href="/posts/this-is-a-work-in-progress">September 27, 2015: This Is A Work In Progress</a></li>
 					<li><a href="/posts/a-look-inside-my-toolbox">September 21, 2015: A Look Inside My Toolbox</a></li>
+				</ul>
+				<h2>October 2015</h2>
+				<ul>
+					<li><a href="/posts/static-site-generators-a-first-look">October 03: Static Site Generators - A First Look</a></li>
 				</ul>
 				<h2>September 2015</h2>
 				<ul>
@@ -77,41 +82,45 @@
 		</header>
 		<main>
 			<article>
-				<header class="article-header"><a href="/posts/this-is-a-work-in-progress"><h2>Sep 27, 2015: This Is A Work In Progress</h2></a><img src="/images/construction.jpg" alt="construction">
-					<p>Things I need to do on this blog by <b>Michael Kornblum</b>.</p>
+				<header class="article-header"><a href="/posts/static-site-generators-a-first-look"><h2>Oct 03, 2015: Static Site Generators - A First Look</h2></a><img src="/images/power_plant.jpg" alt="power plant">
+					<p>Introducing static site generators by <b>Michael Kornblum</b>.</p>
 				</header>
 				<section>
-					<p>Greetings, salutations and welcome to my blog. My name is Michael Kornblum and in this blog I intend to share my thoughts, feelings and observations as the
-						pertain to Linux, open source software, web design and front-end development.</p>
-					<p>Now, let me tell you a little about myself:</p>
-					<p>For the past seven or so years, learning web design and front-end development has been an all encompassing passion. I can&#39;t even begin to count the number
-						of books, blog posts, video tutorials and podcasts I have consumed in an effort to learn more about my craft. Whenever a new technology starts to become &quot;a
-						thing&quot;, I&#39;m all about learning what it does, and how it can be of value to me.</p>
-					<p>With this being said, I have a little confession to make. This is my first personal website. I realize that this fact may raise a few eyebrows among my friends,
-						collegues and peers, but the truth of the matter is that I was scared of putting my own website up for public scrutiny and possible critique.</p>
-					<p>Imposter syndrome is not uncommon among those in skilled professions. I&#39;ve written articles for LinkedIn, established a small presence on Github and even
-						taught Responsive Web Design to others. But with each bit of knowledge that I shared, the nagging voice that cast doubt upon my own personal abilities grew
-						louder and louder. Finally, something had to give.</p>
-					<p>Recently, I asked myself if I still wanted to be a web designer, front-end developer, or if I was going to continue on as a hobbyist. If my passion was to become
-						a career, I had to have a personal site online whether it was perfect of not. This meant that I had to check my neurosis and perfectionism at the door, and
-						in the words of Chris Coyier &quot;just build websites.&quot;</p>
-					<p>With this mantra firmly in mind, I build this blog from scratch using the Metalsmith static site generator, and the Gulp streaming build system. The original
-						intention was to create something that was virtually indistinguishable from a WordPress theme, but could be easily hosted on Github pages. Thus far, I&#39;m
-						about three quarters of the way complete with the template. But I decided to go live with this project regardless of its level of completion for a couple of
-						reasons.</p>
-					<p>First, by working out in the open, I&#39;m taking the focus off myself and thinking of those who are actually visiting my site. Secondly, by chronicling the
-						lessons I learn while finishing this blog, I can hopefully help others.</p>
-					<p>Now, what do I need to do before I call this blog a finished product?</p>
+					<p>I first heard about static site generators about two years ago while listening to an interview with Anna Debenham on the <a href="http://5by5.tv/eastwing/69">East Wing Podcast</a>.
+						During the show, Anna spoke briefly about her work with <a href="https://jekyllrb.com/">Jekyll</a>, a command-line application that used templates and markdown
+						to build complete websites.</p>
+					<p>Coming from a PHP background, this idea intrigued me. I had already started working with the <a href="http://www.smarty.net/">Smarty templating engine</a> and
+						enjoyed the fact that I was no longer polluting my server-side code with fragments of HTML. But the idea of compiling my data and templates into a flat file
+						was something I never really considered.</p>
+					<p>After trying Jekyll for the first time, I was hooked. While I could not see this way of building websites as a replacement for full Content Management Systems,
+						I was blown away by just how much server-side code could be eliminated by just using templates.</p>
+					<h3 id="what-is-a-static-site-generator-">What is a Static Site Generator?</h3>
+					<p>A Static Site Generator can be described as a Content Management System that does not use a server-side scripting language or a database. Page layouts and site
+						content are stored as files in a project directory. These files are then compiled prior to publication via command-line to create a complete website.</p>
+					<h3 id="the-advantages">the Advantages</h3>
+					<p>Most of the advantages of using a static site generator comes from the fact that the websites they build consist of nothing more than HTML, CSS and JavaScript.
+						As a result:</p>
 					<ul>
-						<li>Create an About page.</li>
-						<li>Add contact information.</li>
-						<li>Create a finished Archive page.</li>
-						<li>Add meta information to article pages</li>
-						<li>Clean up the CSS.</li>
+						<li>There is no server-side scripting languages or datatbases to install, or maintain.</li>
+						<li>Site content is compiled prior to publication, resulting in faster page load times.</li>
+						<li>Site assets remain on the author&#39;s local machine, allowing them to retain complete ownership of their work.</li>
 					</ul>
-					<p>For the time being, this is my &quot;to do list.&quot; I suspect that as I complete one task, others will start to rear their heads. These in turn will also
-						need to be documented and resolved. But for now, this is what I have.</p>
-					<p>Please check back, and I will keep you posted on how this blog is progressing. I hope to hear from you soon. And in the meantime, build something awesome.</p>
+					<h3 id="the-disadvantages">the Disadvantages</h3>
+					<p>The main disadvantages of static site generators comes from the fact that there is a bit of a learning curve associated with them. Since creating websites with
+						this tool consists of editing text files, there is no graphic user interface for a client to work with. Additionally, there is no easy way to add features
+						like ecommerce to a static site in a manner resembles the point and click system that WordPress offers.</p>
+					<p>But with this being said, services are starting to appear on the web that bridge the gap between static site generators and CMSs. For example <a href="https://contentful.com">Contentful</a>,
+						provides a user friendly web interface for creating site content. This content is packaged in a JSON object which then can be pulled into your static build
+						system through templates or a simple AJAX request. <a href="https://disqus.com">Disqus</a> easily adds commenting to a static blog by adding some simple JavaScript
+						to the bottom of a rendered HTML page. And finally for creating online forms, there are service like <a href="http://www.wufoo.com">Wufoo</a>.</p>
+					<h3 id="proof-of-concept">Proof of Concept</h3>
+					<p>After looking at the possible benifits and caveats associated with site generators, I was tempted to put this tool through its paces. As a result, I built this
+						blog using Metalsmith, a static site generator based on Node.js. Thus far, I&#39;m very pleased with the results. Metalsmith is modular, flexible and integrates
+						well with the other tools I use on a regular basis. To see this work in progress, feel free to visit my <a href="http://github.com/michaelkornblum/soda-fountain/">github repo</a>.</p>
+					<h3 id="final-thoughts">Final Thoughts</h3>
+					<p>At the time of this writing, static site generators are not ready to step in and replace WordPress for creating enterprise level sites. However there are times
+						when a CMS is just too much of a solution and hand-coding HTML, CSS and JavaScript is too much of an undertaking. But if you are willing to learn new ways
+						of creating a website, static site generators may be just the thing you&#39;re looking for.</p>
 				</section>
 			</article>
 		</main>

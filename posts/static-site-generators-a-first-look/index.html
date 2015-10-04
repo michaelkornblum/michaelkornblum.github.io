@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Michael Kornblum | About</title>
-	<meta name="description">
-	<meta name="author" content="">
+	<title>Michael Kornblum | Static Site Generators - A First Look</title>
+	<meta name="description" content="Introducing static site generators">
+	<meta name="author" content="Michael Kornblum">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet" type="text/css">
@@ -82,9 +82,62 @@
 		</header>
 		<main>
 			<article>
-				<header>
-					<h2>About</h2></header>
-				<section>&lt;p&gt;Here you can put some interesting details about yourself and your organization.&lt;/p&gt;
+				<header class="article-header">
+					<h2>Oct 03, 2015: Static Site Generators - A First Look</h2><img src="/images/power_plant.jpg" alt="power plant">
+					<p>Introducing static site generators by <b>Michael Kornblum</b>.</p>
+				</header>
+				<section>
+					<p>I first heard about static site generators about two years ago while listening to an interview with Anna Debenham on the <a href="http://5by5.tv/eastwing/69">East Wing Podcast</a>.
+						During the show, Anna spoke briefly about her work with <a href="https://jekyllrb.com/">Jekyll</a>, a command-line application that used templates and markdown
+						to build complete websites.</p>
+					<p>Coming from a PHP background, this idea intrigued me. I had already started working with the <a href="http://www.smarty.net/">Smarty templating engine</a> and
+						enjoyed the fact that I was no longer polluting my server-side code with fragments of HTML. But the idea of compiling my data and templates into a flat file
+						was something I never really considered.</p>
+					<p>After trying Jekyll for the first time, I was hooked. While I could not see this way of building websites as a replacement for full Content Management Systems,
+						I was blown away by just how much server-side code could be eliminated by just using templates.</p>
+					<h3 id="what-is-a-static-site-generator-">What is a Static Site Generator?</h3>
+					<p>A Static Site Generator can be described as a Content Management System that does not use a server-side scripting language or a database. Page layouts and site
+						content are stored as files in a project directory. These files are then compiled prior to publication via command-line to create a complete website.</p>
+					<h3 id="the-advantages">the Advantages</h3>
+					<p>Most of the advantages of using a static site generator comes from the fact that the websites they build consist of nothing more than HTML, CSS and JavaScript.
+						As a result:</p>
+					<ul>
+						<li>There is no server-side scripting languages or datatbases to install, or maintain.</li>
+						<li>Site content is compiled prior to publication, resulting in faster page load times.</li>
+						<li>Site assets remain on the author&#39;s local machine, allowing them to retain complete ownership of their work.</li>
+					</ul>
+					<h3 id="the-disadvantages">the Disadvantages</h3>
+					<p>The main disadvantages of static site generators comes from the fact that there is a bit of a learning curve associated with them. Since creating websites with
+						this tool consists of editing text files, there is no graphic user interface for a client to work with. Additionally, there is no easy way to add features
+						like ecommerce to a static site in a manner resembles the point and click system that WordPress offers.</p>
+					<p>But with this being said, services are starting to appear on the web that bridge the gap between static site generators and CMSs. For example <a href="https://contentful.com">Contentful</a>,
+						provides a user friendly web interface for creating site content. This content is packaged in a JSON object which then can be pulled into your static build
+						system through templates or a simple AJAX request. <a href="https://disqus.com">Disqus</a> easily adds commenting to a static blog by adding some simple JavaScript
+						to the bottom of a rendered HTML page. And finally for creating online forms, there are service like <a href="http://www.wufoo.com">Wufoo</a>.</p>
+					<h3 id="proof-of-concept">Proof of Concept</h3>
+					<p>After looking at the possible benifits and caveats associated with site generators, I was tempted to put this tool through its paces. As a result, I built this
+						blog using Metalsmith, a static site generator based on Node.js. Thus far, I&#39;m very pleased with the results. Metalsmith is modular, flexible and integrates
+						well with the other tools I use on a regular basis. To see this work in progress, feel free to visit my <a href="http://github.com/michaelkornblum/soda-fountain/">github repo</a>.</p>
+					<h3 id="final-thoughts">Final Thoughts</h3>
+					<p>At the time of this writing, static site generators are not ready to step in and replace WordPress for creating enterprise level sites. However there are times
+						when a CMS is just too much of a solution and hand-coding HTML, CSS and JavaScript is too much of an undertaking. But if you are willing to learn new ways
+						of creating a website, static site generators may be just the thing you&#39;re looking for.</p>
+				</section>
+				<section class="comments">
+					<div id="disqus_thread"></div>
+					<script type="text/javascript">
+						var disqus_shortname = 'static-site-generators-a-first-look';
+						/* * * DON'T EDIT BELOW THIS LINE * * */
+						(function() {
+							var dsq = document.createElement('script');
+							dsq.type = 'text/javascript';
+							dsq.async = true;
+							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+						})();
+					</script>
+					<noscript>Please enable JavaScript to view the
+						<a href="https://discus.com/?ref_noscript" rel="nofollow"></a> comments powered by Disqus.</noscript>
 				</section>
 			</article>
 		</main>

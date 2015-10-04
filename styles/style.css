@@ -404,7 +404,8 @@ article header {
 }
 @media only screen and (min-width: 768px) {
   .page-header h1,
-  main h2 {
+  main h2,
+  h3 {
     margin-top: 0.5em;
     padding-top: 0;
     line-height: 1.5;
@@ -599,7 +600,8 @@ main:nth-child(3n + 1) {
   margin-top: 1.44em;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Alfa Slab One', cursive;
 }
 main h2 {
