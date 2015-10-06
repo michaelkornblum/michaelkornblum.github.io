@@ -2,12 +2,12 @@ html {
   font-family: 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', 'sans-serif';
   font-weight: 300;
   color: #666;
-  font-size: 16px;
-  line-height: 1.75em;
+  font-size: 18px;
+  line-height: 1.6em;
 }
 @media (min-width: 600px) {
   html {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -80,7 +80,7 @@ dl,
 ol,
 ul,
 table {
-  margin-bottom: 1.75em;
+  margin-bottom: 1.6em;
 }
 h1,
 h2,
@@ -94,117 +94,117 @@ h6 {
   clear: both;
 }
 h1 {
-  font-size: 23.643540225079395px;
-  margin-top: 1.48031976881679em;
-  line-height: 1.776383722580148em;
-  margin-bottom: 0.296063953763358em;
+  font-size: 22.120218848414922px;
+  margin-top: 1.627470335926612em;
+  line-height: 1.952964403111934em;
+  margin-bottom: 0.325494067185322em;
 }
 @media (min-width: 600px) {
   h1 {
-    font-size: calc( 23.643540225079395px + (35.465310337619094 - 23.643540225079395) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 22.120218848414922px + (29.493625131219897 - 22.120218848414922) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h1 {
-    font-size: 35.465310337619094px;
-    margin-top: 1.48031976881679em;
-    line-height: 1.776383722580148em;
-    margin-bottom: 0.296063953763358em;
+    font-size: 29.493625131219897px;
+    margin-top: 1.627470335926612em;
+    line-height: 1.952964403111934em;
+    margin-bottom: 0.325494067185322em;
   }
 }
 h2 {
-  font-size: 21.867241478865562px;
-  margin-top: 1.600567681745642em;
-  line-height: 1.920681218094771em;
-  margin-bottom: 0.364030397557962em;
+  font-size: 21.22687373268672px;
+  margin-top: 1.695963355384007em;
+  line-height: 2.035156026460808em;
+  margin-bottom: 0.387130866123558em;
 }
 @media (min-width: 600px) {
   h2 {
-    font-size: calc( 21.867241478865562px + (32.80086221829834 - 21.867241478865562) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 21.22687373268672px + (28.30249831024896 - 21.22687373268672) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h2 {
-    font-size: 32.80086221829834px;
-    margin-top: 1.600567681745642em;
-    line-height: 1.920681218094771em;
-    margin-bottom: 0.349391443821684em;
+    font-size: 28.30249831024896px;
+    margin-top: 1.695963355384007em;
+    line-height: 2.035156026460808em;
+    margin-bottom: 0.375146317361869em;
   }
 }
 h3 {
-  font-size: 20.224393019950664px;
-  margin-top: 1.730583457583805em;
-  line-height: 2.076700149100566em;
-  margin-bottom: 0.397458161865265em;
+  font-size: 20.369607170306672px;
+  margin-top: 1.767338942720416em;
+  line-height: 2.1208067312645em;
+  margin-bottom: 0.405525904185019em;
 }
 @media (min-width: 600px) {
   h3 {
-    font-size: calc( 20.224393019950664px + (30.336589529925995 - 20.224393019950664) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 20.369607170306672px + (27.159476227075565 - 20.369607170306672) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h3 {
-    font-size: 30.336589529925995px;
-    margin-top: 1.730583457583805em;
-    line-height: 2.076700149100566em;
-    margin-bottom: 0.380344338415764em;
+    font-size: 27.159476227075565px;
+    margin-top: 1.767338942720416em;
+    line-height: 2.1208067312645em;
+    margin-bottom: 0.392511375274785em;
   }
 }
 h4 {
-  font-size: 18.704968956452426px;
-  margin-top: 1.871160549984579em;
-  line-height: 2.245392659981495em;
-  margin-bottom: 0.434253398062377em;
+  font-size: 19.546962096150924px;
+  margin-top: 1.841718412452895em;
+  line-height: 2.210062094943475em;
+  margin-bottom: 0.424875794336713em;
 }
 @media (min-width: 600px) {
   h4 {
-    font-size: calc( 18.704968956452426px + (28.05745343467864 - 18.704968956452426) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 19.546962096150924px + (26.06261612820123 - 19.546962096150924) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h4 {
-    font-size: 28.05745343467864px;
-    margin-top: 1.871160549984579em;
-    line-height: 2.245392659981495em;
-    margin-bottom: 0.414246302040557em;
+    font-size: 26.06261612820123px;
+    margin-top: 1.841718412452896em;
+    line-height: 2.210062094943475em;
+    margin-bottom: 0.410742766375179em;
   }
 }
 h5 {
-  font-size: 17.299696624601218px;
-  margin-top: 2.023156865665949em;
-  line-height: 2.427788238799139em;
-  margin-bottom: 0.40463137313319em;
+  font-size: 18.75754028999316px;
+  margin-top: 1.919228184689301em;
+  line-height: 2.303073821627162em;
+  margin-bottom: 0.38384563693786em;
 }
 @media (min-width: 600px) {
   h5 {
-    font-size: calc( 17.299696624601218px + (25.949544936901827 - 17.299696624601218) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18.75754028999316px + (25.01005371999088 - 18.75754028999316) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h5 {
-    font-size: 25.949544936901827px;
-    margin-top: 2.023156865665949em;
-    line-height: 2.427788238799139em;
-    margin-bottom: 0.40463137313319em;
+    font-size: 25.01005371999088px;
+    margin-top: 1.919228184689302em;
+    line-height: 2.303073821627162em;
+    margin-bottom: 0.38384563693786em;
   }
 }
 h6 {
-  font-size: 16px;
-  margin-top: 2.1875em;
-  line-height: 2.625em;
-  margin-bottom: 0.57421875em;
+  font-size: 18px;
+  margin-top: 2em;
+  line-height: 2.4em;
+  margin-bottom: 0.511111111111111em;
 }
 @media (min-width: 600px) {
   h6 {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   h6 {
     font-size: 24px;
-    margin-top: 2.1875em;
-    line-height: 2.625em;
-    margin-bottom: 0.46484375em;
+    margin-top: 2em;
+    line-height: 2.4em;
+    margin-bottom: 0.422222222222222em;
   }
 }
 blockquote {
@@ -215,15 +215,15 @@ blockquote cite {
   font-style: normal;
 }
 pre {
-  padding: 0.875em;
-  margin-bottom: 1.75em;
+  padding: 0.8em;
+  margin-bottom: 1.6em;
 }
 pre code {
   padding: 0;
 }
 code {
   font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', 'monospace';
-  padding: 0.0875em 0.2625em;
+  padding: 0.08em 0.24em;
   line-height: 0;
 }
 big,
@@ -251,15 +251,15 @@ ol {
   padding-left: 1.4em;
 }
 fieldset {
-  padding: 0.875em 1.75em 1.75em;
+  padding: 0.8em 1.6em 1.6em;
   border-width: 1px;
   border-style: solid;
   max-width: 100%;
-  margin-bottom: 1.822916666666667em;
+  margin-bottom: 1.666666666666667em;
 }
 @media (min-width: 1140px) {
   fieldset {
-    margin-bottom: 2.096354166666667em;
+    margin-bottom: 1.916666666666667em;
   }
 }
 fieldset button,
@@ -272,8 +272,8 @@ legend {
 }
 label {
   display: block;
-  padding-bottom: 0.21875em;
-  margin-bottom: -0.255208333333333em;
+  padding-bottom: 0.2em;
+  margin-bottom: -0.233333333333333em;
 }
 input[type="text"],
 input[type="email"],
@@ -281,16 +281,16 @@ input[type="password"],
 textarea {
   display: block;
   max-width: 100%;
-  padding: 0.4375em;
-  font-size: 16px;
-  margin-bottom: 1.130208333333333em;
+  padding: 0.4em;
+  font-size: 18px;
+  margin-bottom: 1.033333333333334em;
 }
 @media (min-width: 600px) {
   input[type="text"],
   input[type="email"],
   input[type="password"],
   textarea {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
@@ -299,57 +299,57 @@ textarea {
   input[type="password"],
   textarea {
     font-size: 24px;
-    margin-bottom: 0.501302083333333em;
+    margin-bottom: 0.458333333333333em;
   }
 }
 input[type="submit"],
 button {
   display: block;
   cursor: pointer;
-  font-size: 16px;
-  padding: 0.4375em 1.75em;
-  margin-bottom: 1.203125em;
+  font-size: 18px;
+  padding: 0.4em 1.6em;
+  margin-bottom: 1.1em;
 }
 @media (min-width: 600px) {
   input[type="submit"],
   button {
-    font-size: calc( 16px + (24 - 16) * ((100vw - 600px) / (1140 - 600)) );
+    font-size: calc( 18px + (24 - 18) * ((100vw - 600px) / (1140 - 600)) );
   }
 }
 @media (min-width: 1140px) {
   input[type="submit"],
   button {
     font-size: 24px;
-    margin-bottom: 1.3125em;
+    margin-bottom: 1.2em;
   }
 }
 table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  margin-bottom: 2.114583333333333em;
+  margin-bottom: 1.933333333333334em;
 }
 @media (min-width: 1140px) {
   table {
-    margin-bottom: 2.005208333333333em;
+    margin-bottom: 1.833333333333333em;
   }
 }
 th {
   text-align: left;
   color: #111;
-  padding: 0.21875em 0.875em;
+  padding: 0.2em 0.8em;
 }
 @media (min-width: 1140px) {
   th {
-    padding: 0.4375em 0.875em;
+    padding: 0.4em 0.8em;
   }
 }
 td {
-  padding: 0.21875em 0.875em;
+  padding: 0.2em 0.8em;
 }
 @media (min-width: 1140px) {
   td {
-    padding: 0.4375em 0.875em;
+    padding: 0.4em 0.8em;
   }
 }
 body {
@@ -369,11 +369,11 @@ body:after {
   clear: both;
 }
 img {
+  min-width: 100%;
   *zoom: 1;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 img:before {
   content: '';
@@ -384,8 +384,8 @@ img:after {
   display: table;
   clear: both;
 }
-.article-header {
-  margin-bottom: 2.275em;
+article {
+  margin-bottom: 0.4em;
 }
 .container {
   *zoom: 1;
@@ -399,15 +399,18 @@ img:after {
   display: table;
   clear: both;
 }
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 768px) {
   .page-header h1,
-  main h2 {
-    margin-top: 16px;
+  main h2,
+  h3 {
+    margin-top: 0.5em;
     padding-top: 0;
+    line-height: 1.5;
   }
 }
 .page-header {
-  width: calc(99.99% * 1/3 - (.5em - .5em * 1/3));
+  margin-top: 0.5em;
+  width: calc(99.99% * 1/3 - (1em - 1em * 1/3));
   box-sizing: border-box;
   padding: 0 1em;
   background-color: #ff6347;
@@ -415,7 +418,7 @@ img:after {
 }
 .page-header:nth-child(n) {
   float: left;
-  margin-right: .5em;
+  margin-right: 1em;
   clear: none;
 }
 .page-header:last-child {
@@ -443,15 +446,15 @@ img:after {
 .page-header a:hover {
   color: #fff;
 }
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 768px) {
   .page-header {
-    width: calc(99.99% * 3/3 - (.5em - .5em * 3/3));
+    width: calc(99.99% * 3/3 - (1em - 1em * 3/3));
     margin-top: 0;
     padding-top: 0;
   }
   .page-header:nth-child(n) {
     float: left;
-    margin-right: .5em;
+    margin-right: 1em;
     clear: none;
   }
   .page-header:last-child {
@@ -465,11 +468,11 @@ img:after {
   }
   .page-header h1 {
     margin-top: 0.4em;
-    width: calc(99.99% * 8/10 - (.5em - .5em * 8/10));
+    width: calc(99.99% * 8/10 - (1em - 1em * 8/10));
   }
   .page-header h1:nth-child(n) {
     float: left;
-    margin-right: .5em;
+    margin-right: 1em;
     clear: none;
   }
   .page-header h1:last-child {
@@ -483,14 +486,15 @@ img:after {
   }
 }
 main {
-  width: calc(99.99% * 2/3 - (.5em - .5em * 2/3));
+  margin-top: 0.5em;
+  width: calc(99.99% * 2/3 - (1em - 1em * 2/3));
   box-sizing: border-box;
   padding: 0 1em;
   background: #eee;
 }
 main:nth-child(n) {
   float: left;
-  margin-right: .5em;
+  margin-right: 1em;
   clear: none;
 }
 main:last-child {
@@ -502,13 +506,14 @@ main:nth-child(3n) {
 main:nth-child(3n + 1) {
   clear: left;
 }
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 768px) {
   main {
-    width: calc(99.99% * 3/3 - (.5em - .5em * 3/3));
+    width: calc(99.99% * 3/3 - (1em - 1em * 3/3));
+    margin-top: 0;
   }
   main:nth-child(n) {
     float: left;
-    margin-right: .5em;
+    margin-right: 1em;
     clear: none;
   }
   main:last-child {
@@ -520,9 +525,6 @@ main:nth-child(3n + 1) {
   main:nth-child(3n + 1) {
     clear: left;
   }
-  main h2 {
-    margin-top: 0.4375em;
-  }
 }
 .toggle {
   height: 1.5em;
@@ -532,13 +534,13 @@ main:nth-child(3n + 1) {
   lost-grid: 2/10;
   float: right;
   position: relative;
-  top: 0.95em;
+  top: 0.8em;
   background-color: #ff6347;
   border: none;
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 768px) {
   .toggle {
     display: none;
   }
@@ -552,7 +554,7 @@ main:nth-child(3n + 1) {
   background-color: #fff;
   width: 100%;
 }
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 768px) {
   .page-nav {
     opacity: 0;
     max-height: 0;
@@ -566,18 +568,19 @@ main:nth-child(3n + 1) {
   }
 }
 .page-footer {
-  width: calc(99.99% * 1/1 - (.5em - .5em * 1/1));
+  width: calc(99.99% * 1/1 - (1em - 1em * 1/1));
   background-color: #ff6347;
   color: #fff;
   text-align: right;
   display: block;
-  height: 2.625em;
+  margin-top: 1em;
+  height: 2.4em;
   padding: 0 1em;
   box-sizing: border-box;
 }
 .page-footer:nth-child(n) {
   float: left;
-  margin-right: .5em;
+  margin-right: 1em;
   clear: none;
 }
 .page-footer:last-child {
@@ -591,5 +594,37 @@ main:nth-child(3n + 1) {
 }
 .page-footer small {
   display: block;
-  margin-top: 1.575em;
+  margin-top: 1.44em;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+}
+main h2 {
+  font-size: 1.25em;
+  line-height: 1.25;
+}
+svg.icon {
+  height: 1.2em;
+  width: 1.2em;
+  fill: #ff0;
+  stroke: #ff0;
+  display: inline-block;
+  margin-right: 8px;
+  position: relative;
+  top: 0.1em;
+}
+svg.icon:hover {
+  fill: #fff;
+  stroke: #fff;
+}
+svg.icon.active {
+  fill: #fff;
+  stroke: #fff;
+}
+.site-pages,
+.site-categories {
+  list-style-type: none;
+  padding: 0;
 }
